@@ -1,5 +1,6 @@
 import "./style-navbar.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,9 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar__mobile">
         <div>
-          <img src="logoJob.svg" className="navbar__logo-mobile"></img>
+          <Link to="/">
+            <img src="logoJob.svg" className="navbar__logo-mobile"></img>
+          </Link>
         </div>
         <div className="navbar__toggle" onClick={toggleMenu}>
           <span></span>
@@ -32,13 +35,13 @@ function Navbar() {
         <a className="navbar__content-link" href="#" onClick={closeMenu}>
           Financial Highlights
         </a>
-        <a
+        <Link
           className="navbar__content-link navbar__content-link--img"
-          href="#"
+          to="/"
           onClick={closeMenu}
         >
           <img className="logo" src="logoJob.svg"></img>
-        </a>
+        </Link>
         <div className="dropdown">
           <div className="dropdown__btn">
             <a className="dropdown__toggle navbar__content-link">
