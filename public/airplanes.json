@@ -1,0 +1,49 @@
+{
+  "airplanes": [
+    {
+      "name": "Boeing 747",
+      "description": "The Boeing 747, also known as the 'Jumbo Jet,' is a large, long-range wide-body airliner. It revolutionized long-haul flight with its size and range.",
+      "image_url": "https://www.lufthansa.com/content/dam/lh/images/local_images/discover-lufthansa/fleet/B747-8.jpg.transform/lh-dcep-transform-width-1440/img.jpg"
+    },
+    {
+      "name": "Airbus A380",
+      "description": "The Airbus A380 is a double-deck, wide-body airliner and the world's largest passenger aircraft, capable of carrying up to 850 passengers.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/1200px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg"
+    },
+    {
+      "name": "Cessna 172",
+      "description": "The Cessna 172 Skyhawk is the best-selling, most-flown aircraft in history, widely used for flight training and personal use.",
+      "image_url": "https://www.aopa.org/-/media/Images/AOPA-Main/Aircraft-Guide/Cessna-172-Skyhawk/03-341_141.jpg"
+    },
+    {
+      "name": "Lockheed Martin F-22 Raptor",
+      "description": "The F-22 Raptor is a fifth-generation, stealth tactical fighter aircraft with advanced avionics, stealth capabilities, and high maneuverability.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg/1200px-F-22_Raptor_edit1_%28cropped%29.jpg"
+    },
+    {
+      "name": "Concorde",
+      "description": "The Concorde was a British-French turbojet-powered supersonic passenger airliner, famous for its speed, cruising at twice the speed of sound.",
+      "image_url": "https://th-thumbnailer.cdn-si-edu.com/SAEk-8mN1tcabgPjx6wHOCsSNEY=/fit-in/1200x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b1/93/b1937e31-7b38-4a60-86b3-ab1f95f18a3a/concorde-388-june14.jpg"
+    },
+    {
+      "name": "Piper PA-28 Cherokee",
+      "description": "The Piper PA-28 Cherokee is a family of light aircraft designed for flight training, air taxi, and personal use, known for its ease of handling.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/G-AVRZ_Piper_PA-28-180_Cherokee_C_at_Northrepps.jpg"
+    },
+    {
+      "name": "Sukhoi Su-57",
+      "description": "The Sukhoi Su-57 is a Russian stealth, single-seat, twin-engine multirole fifth-generation jet fighter, designed for air superiority and attack missions.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_Su-57_%2849581303977%29.jpg/800px-Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_Su-57_%2849581303977%29.jpg"
+    },
+    {
+      "name": "Embraer E190",
+      "description": "The Embraer E190 is a narrow-body, twin-engine jet airliner designed for short to medium-haul flights, popular among regional airlines.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/N247JB_KJFK_%2837103752403%29.jpg"
+    },
+    {
+      "name": "Beechcraft King Air",
+      "description": "The Beechcraft King Air is a family of twin-turboprop aircraft that has been in continuous production since 1964, used for corporate and special mission operations.",
+      "image_url": "https://beechcraft.txtav.com/-/media/beechcraft/images/aircraft/king-air/360/exterior/360_exterior_thumb.ashx"
+    }
+  ]
+}
