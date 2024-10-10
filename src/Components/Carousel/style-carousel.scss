@@ -1,0 +1,61 @@
+@use "../../Sytles/general.scss" as main;
+
+.carousel {
+  &-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  &-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: main.$dark_color;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    &.left {
+      left: 10px;
+    }
+    &.right {
+      right: 10px;
+    }
+  }
+  &-dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: main.$light_color;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px main.$dark_color solid;
+  &.active {
+    background-color: main.$dark_color;
+  }
+}
+
+@media (max-width: 560px) {
+  .carousel-container {
+    width: 100%;
+  }
+  .card {
+    min-width: 100%;
+  }
+}
