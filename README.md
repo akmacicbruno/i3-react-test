@@ -5,16 +5,16 @@ Stranica je morala biti responzivna.
 
 ## Home stranica
 
-![HomeScreen](home.jpg)
-![HomeScreenMobile](mobile1.jpg)
+![HomeScreen](screens/home.png)
+![HomeScreenMobile](screens/mobile1.png)
 
 ## About stranica
 
-![About1](about1.jpg)
-![About2](about2.jpg)
-![AboutMobile1](mobile3.jpg)
-![AboutMobile2](mobile4.jpg)
+![About1](screens/about1.png)
+![About2](screens/about2.png)
+![AboutMobile1](screens/mobile3.png)
+![AboutMobile2](screens/mobile4.png)
 
 ## Mobile navbar
 
-![MobileResponsive](mobile2.jpg)
+![MobileResponsive](screens/mobile2.png)
