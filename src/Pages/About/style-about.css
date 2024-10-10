@@ -44,6 +44,10 @@
   text-align: center;
   padding: 15px;
   line-height: 20px;
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 0px;
+  animation-range-end: 200px;
 }
 .about__left-cards-item-img {
   width: 100px;
@@ -60,6 +64,16 @@
      object-fit: cover;
 }
 
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
 @media (max-width: 850px) {
   .container-about {
     display: flex;
