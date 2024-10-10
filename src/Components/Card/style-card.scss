@@ -1,5 +1,10 @@
 @use "../../Sytles/general.scss" as main;
 
+@function toRem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
+
 .card {
   //background-color: main.$light_color;
   //border-radius: 8px;
@@ -31,5 +36,31 @@
   &-description {
     color: #555;
     font-size: 1em;
+  }
+}
+
+@media (min-width: 2000px) {
+  .card {
+    width: 500px;
+    &-img {
+      width: toRem(400);
+      height: toRem(400);
+    }
+    &-title {
+      font-size: toRem(32);
+    }
+  }
+}
+
+@media (min-width: 5000px) {
+  .card {
+    width: 500px;
+    &-img {
+      width: toRem(500);
+      height: toRem(500);
+    }
+    &-title {
+      font-size: toRem(48);
+    }
   }
 }

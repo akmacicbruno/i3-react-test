@@ -28,4 +28,29 @@
 .card-description {
   color: #555;
   font-size: 1em;
+}
+
+@media (min-width: 2000px) {
+  .card {
+    width: 500px;
+  }
+  .card-img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 5000px) {
+  .card {
+    width: 500px;
+  }
+  .card-img {
+    width: 31.25rem;
+    height: 31.25rem;
+  }
+  .card-title {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=style-card.css.map */
