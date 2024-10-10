@@ -1,19 +1,22 @@
 .card {
-  background-color: #f6fff8;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   overflow: hidden;
   transition: transform 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .card:hover .card-img {
-  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card-img {
-  width: 100%;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 50%;
+  border: 2px #6b9080 solid;
 }
 .card-body {
   padding: 15px;
