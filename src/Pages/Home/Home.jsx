@@ -8,7 +8,7 @@ const Home = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 560);
 
   useEffect(() => {
-    fetch("/airplanes.json")
+    fetch("./public/airplanes.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");

@@ -6,7 +6,7 @@ function About() {
 
   useEffect(() => {
     // Fetch the JSON data
-    fetch("/airport.json")
+    fetch("./public/airport.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
