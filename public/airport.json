@@ -1,0 +1,25 @@
+{
+  "airport": {
+    "name": "Franjo Tuđman Airport",
+    "location": "Zagreb, Croatia",
+    "description": "Zagreb International Airport, officially named Franjo Tuđman Airport, is the primary international airport serving Croatia’s capital city. Located approximately 17 kilometers southeast of Zagreb, the airport plays a crucial role in connecting the country to global destinations. Named after Franjo Tuđman, Croatia's first president, the airport has undergone significant modernization and expansion in recent years to enhance its capacity and improve passenger experience. With a contemporary terminal that features a range of amenities, Zagreb Airport accommodates millions of travelers annually, serving as a hub for various airlines, including Croatia Airlines. Its strategic location makes it not only a gateway to Zagreb but also an essential access point for tourists heading to Croatia's picturesque Adriatic coastline and other cultural attractions. Zagreb Airport is known for its modern facilities and excellent services that cater to both leisure and business travelers. The terminal offers a variety of shops, restaurants, and lounges, ensuring passengers have a comfortable experience while waiting for their flights. Additionally, the airport is committed to sustainability and has implemented several eco-friendly practices, such as energy-efficient systems and waste reduction initiatives. With efficient transportation links, including shuttle buses, taxis, and private car services, getting to and from the airport is convenient for visitors. Ongoing investments in technology and customer service aim to further enhance the airport's operational efficiency, making it a key player in Croatia’s tourism industry and economic development.",
+    "imgUrl": "https://www.tourist-ad-guide.com/wp-content/uploads/2016/09/zracna-luka-zagreb-novi-putnicki-terminal.jpg",
+    "features": [
+      {
+        "img": "https://www.svgrepo.com/show/490514/airport.svg",
+        "feature": "Modern Facilities",
+        "description": "The airport features a contemporary terminal building equipped with various amenities, including shops, restaurants, and lounges, designed to enhance the passenger experience."
+      },
+      {
+        "img": "https://www.svgrepo.com/show/426940/transport.svg",
+        "feature": "Transportation Links",
+        "description": "Franjo Tuđman Airport is well-connected to the city center by various transportation options, including shuttle buses, taxis, and private car services, making it easy for travelers to reach their destinations."
+      },
+      {
+        "img": "https://www.svgrepo.com/show/36614/recycle-logo.svg",
+        "feature": "Environmental Initiatives",
+        "description": "The airport is committed to sustainability and has implemented various eco-friendly practices, such as energy-efficient systems and waste reduction programs, aligning with global standards for environmental responsibility."
+      }
+    ]
+  }
+}
