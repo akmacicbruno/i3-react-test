@@ -7,7 +7,7 @@ import NotFound from "./Pages/404/NotFound";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/i3-react-test/">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
